@@ -38,9 +38,9 @@ const musicSchoolContent = [
 
 function WhyChooseUs() {
   return (
-    <div className="border border-white">
-    <StickyScroll content={musicSchoolContent} />
-</div>
+    <div>
+        <StickyScroll content={musicSchoolContent} />
+    </div>
   )
 }
 
